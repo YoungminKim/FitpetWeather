@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.4.1' apply false
+    id 'com.android.library' version '7.4.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
+    id 'com.google.dagger.hilt.android' version '2.44' apply false
+
+}
+
+ext{
+    kotlin_version = "1.6.10"
+    retrofit_version = "2.8.1"
+    koin_version = "3.2.0"
+    aac_version = "2.2.0"
+    lifecycle_version = "3.1.0"
+    rxjava_version = "3.0.4"
+    retrofit_version = "2.8.1"
+    splitties_version = "3.0.0"
+    glide_version = "4.12.0"
+    realm_version = "10.8.1"
+    hilt_version = "2.44"
+    paging_version = "3.0.0"
+}

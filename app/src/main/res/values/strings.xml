@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FitpetWeather</string>
+    <string name="max_temp">Max : %s℃</string>
+    <string name="min_temp">Min : %s℃</string>
+</resources>
