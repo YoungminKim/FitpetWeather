@@ -20,6 +20,7 @@ class WeatherListActivity: BaseActivity<ActivityWeatherListBinding>(R.layout.act
     }
 
     private var index = 0
+    private val test= "test"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
